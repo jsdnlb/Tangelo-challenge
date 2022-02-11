@@ -28,8 +28,7 @@ def filter_data(data):
         end_time = timer()
         # I subtract the final execution time from the initial time, multiply it by 1000 to convert it to milliseconds
         # then round it to 2 digits and finally convert it to a string for display.
-        execution_time.append(
-            str(round((end_time - start_time)*1000, 2))+' ms')
+        execution_time.append(round((end_time - start_time)*1000, 2))
 
     # Generating table with DataFrame
     table = pd.DataFrame({
