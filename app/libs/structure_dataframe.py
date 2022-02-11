@@ -1,6 +1,6 @@
 import pandas as pd
 from timeit import default_timer as timer
-from libs.encrypt_sha1 import encrypt_sha1
+from app.libs.encrypt_sha1 import encrypt_sha1
 
 
 def filter_data(data):
