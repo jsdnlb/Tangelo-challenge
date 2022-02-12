@@ -13,12 +13,11 @@ This project is built in  [Python](https://www.python.org) and uses the followin
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an application that consumes a service exposed by [Rest Countries](https://restcountries.com/) , then filters the information according to the requested requirements. It uses Pandas DataFrame to manipulate the information in a proper way, calculates time measurements and finally connects to a database and records the execution times. If the database or the table does not exist, it creates it, additionally it saves in json format the information hosted in the database table.
+This is an application that consumes a service exposed by [Rest Countries](https://restcountries.com/), then filters the information according to the requested requirements. It uses Pandas DataFrame to manipulate the information in a proper way, calculates time measurements and finally connects to a database and records the execution times. If the database or the table does not exist, it creates it, additionally it saves in json format the information hosted in the database table.
 
 Below is the design of the solution:
 
-![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/17171887/153727679-6dbefb8e-92fe-4686-856f-104fc6de37e8.png)
-
+<center>![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/17171887/153727679-6dbefb8e-92fe-4686-856f-104fc6de37e8.png)</center>
 ### Prerequisites
 
 The program needs git to clone it and python to run it.
@@ -61,7 +60,7 @@ To run the application you only have to run the file as follows:
 
 The answer will be similar to the following, depending on the quality of your internet.
 
-![run_app](https://user-images.githubusercontent.com/17171887/153725170-c1a1cda4-1a12-40f7-a8ad-78154363ee95.gif)
+![test3 (online-video-cutter com)](https://user-images.githubusercontent.com/17171887/153728428-84125d3b-ebaf-478c-b6df-1e8b071b8fb1.gif)
 
 This is an example of the information he has saved with SQLite and visualized in [Visual Studio Code](https://code.visualstudio.com/) with the SQLite Viewer extension.
 

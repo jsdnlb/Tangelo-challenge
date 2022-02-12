@@ -1,4 +1,3 @@
--e git+https://github.com/jsdnlb/Tangelo-challenge.git@60e93ecee4df4f21bbba461b30d3a82da6085428#egg=app
 autopep8==1.6.0
 certifi==2021.10.8
 charset-normalizer==2.0.11
