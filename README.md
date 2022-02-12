@@ -18,6 +18,8 @@ This is an application that consumes a service exposed by [Rest Countries](https
 Below is the design of the solution:
 
 <center>![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/17171887/153727679-6dbefb8e-92fe-4686-856f-104fc6de37e8.png)</center>
+
+
 ### Prerequisites
 
 The program needs git to clone it and python to run it.
