@@ -8,6 +8,7 @@ def get_all_contries(url):
 
     # The information is obtained from the countries and returned without any processing.
     try:
+        print('Obtaining information from countries... 🌎')
         r = requests.get(url)
         return(r.json())
     except requests.exceptions.MissingSchema:

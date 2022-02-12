@@ -4,6 +4,7 @@ from app.libs.encrypt_sha1 import encrypt_sha1
 
 
 def filter_data(data):
+    print('Filtering the required data...\n')
 
     region = []
     country_name = []
@@ -27,7 +28,7 @@ def filter_data(data):
         # Calculation in final execution time
         end_time = timer()
         # I subtract the final execution time from the initial time, multiply it by 1000 to convert it to milliseconds
-        # then round it to 2 digits and finally convert it to a string for display.
+        # then round it to 2 digits.
         execution_time.append(round((end_time - start_time)*1000, 2))
 
     # Generating table with DataFrame
@@ -37,5 +38,7 @@ def filter_data(data):
         "Language": language,
         "Time": execution_time
     })
+
+    print(table)
 
     return table
