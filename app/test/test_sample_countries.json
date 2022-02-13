@@ -1,0 +1,705 @@
+[
+  {
+    "name": {
+      "common": "Sweden",
+      "official": "Kingdom of Sweden",
+      "nativeName": {
+        "swe": {
+          "official": "Konungariket Sverige",
+          "common": "Sverige"
+        }
+      }
+    },
+    "tld": [".se"],
+    "cca2": "SE",
+    "ccn3": "752",
+    "cca3": "SWE",
+    "cioc": "SWE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "SEK": {
+        "name": "Swedish krona",
+        "symbol": "kr"
+      }
+    },
+    "idd": {
+      "root": "+4",
+      "suffixes": ["6"]
+    },
+    "capital": ["Stockholm"],
+    "altSpellings": ["SE", "Kingdom of Sweden", "Konungariket Sverige"],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": {
+      "swe": "Swedish"
+    },
+    "translations": {
+      "ara": {
+        "official": "مملكة السويد",
+        "common": "السويد"
+      },
+      "ces": {
+        "official": "Švédské království",
+        "common": "Švédsko"
+      },
+      "cym": {
+        "official": "Kingdom of Sweden",
+        "common": "Sweden"
+      },
+      "deu": {
+        "official": "Königreich Schweden",
+        "common": "Schweden"
+      },
+      "est": {
+        "official": "Rootsi Kuningriik",
+        "common": "Rootsi"
+      },
+      "fin": {
+        "official": "Ruotsin kuningaskunta",
+        "common": "Ruotsi"
+      },
+      "fra": {
+        "official": "Royaume de Suède",
+        "common": "Suède"
+      },
+      "hrv": {
+        "official": "Kraljevina Švedska",
+        "common": "Švedska"
+      },
+      "hun": {
+        "official": "Svéd Királyság",
+        "common": "Svédország"
+      },
+      "ita": {
+        "official": "Regno di Svezia",
+        "common": "Svezia"
+      },
+      "jpn": {
+        "official": "スウェーデン王国",
+        "common": "スウェーデン"
+      },
+      "kor": {
+        "official": "스웨덴 왕국",
+        "common": "스웨덴"
+      },
+      "nld": {
+        "official": "Koninkrijk Zweden",
+        "common": "Zweden"
+      },
+      "per": {
+        "official": "پادشاهی سوئد",
+        "common": "سوئد"
+      },
+      "pol": {
+        "official": "Królestwo Szwecji",
+        "common": "Szwecja"
+      },
+      "por": {
+        "official": "Reino da Suécia",
+        "common": "Suécia"
+      },
+      "rus": {
+        "official": "Королевство Швеция",
+        "common": "Швеция"
+      },
+      "slk": {
+        "official": "Švédske kráľovstvo",
+        "common": "Švédsko"
+      },
+      "spa": {
+        "official": "Reino de Suecia",
+        "common": "Suecia"
+      },
+      "swe": {
+        "official": "Konungariket Sverige",
+        "common": "Sverige"
+      },
+      "urd": {
+        "official": "مملکتِ سویڈن",
+        "common": "سویڈن"
+      },
+      "zho": {
+        "official": "瑞典王国",
+        "common": "瑞典"
+      }
+    },
+    "latlng": [62.0, 15.0],
+    "landlocked": false,
+    "borders": ["FIN", "NOR"],
+    "area": 450295.0,
+    "demonyms": {
+      "eng": {
+        "f": "Swedish",
+        "m": "Swedish"
+      },
+      "fra": {
+        "f": "Suédoise",
+        "m": "Suédois"
+      }
+    },
+    "flag": "🇸🇪",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/iqygE491ADVgnBW39",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/52822"
+    },
+    "population": 10353442,
+    "gini": {
+      "2018": 30.0
+    },
+    "fifa": "SWE",
+    "car": {
+      "signs": ["S"],
+      "side": "right"
+    },
+    "timezones": ["UTC+01:00"],
+    "continents": ["Europe"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/se.png",
+      "svg": "https://flagcdn.com/se.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/se.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/se.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [59.33, 18.05]
+    },
+    "postalCode": {
+      "format": "SE-### ##",
+      "regex": "^(?:SE)*(\\d{5})$"
+    }
+  },
+  {
+    "name": {
+      "common": "Albania",
+      "official": "Republic of Albania",
+      "nativeName": {
+        "sqi": {
+          "official": "Republika e Shqipërisë",
+          "common": "Shqipëria"
+        }
+      }
+    },
+    "tld": [".al"],
+    "cca2": "AL",
+    "ccn3": "008",
+    "cca3": "ALB",
+    "cioc": "ALB",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "ALL": {
+        "name": "Albanian lek",
+        "symbol": "L"
+      }
+    },
+    "idd": {
+      "root": "+3",
+      "suffixes": ["55"]
+    },
+    "capital": ["Tirana"],
+    "altSpellings": ["AL", "Shqipëri", "Shqipëria", "Shqipnia"],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "languages": {
+      "sqi": "Albanian"
+    },
+    "translations": {
+      "ara": {
+        "official": "جمهورية ألبانيا",
+        "common": "ألبانيا"
+      },
+      "ces": {
+        "official": "Albánská republika",
+        "common": "Albánie"
+      },
+      "cym": {
+        "official": "Gweriniaeth Albania",
+        "common": "Albania"
+      },
+      "deu": {
+        "official": "Republik Albanien",
+        "common": "Albanien"
+      },
+      "est": {
+        "official": "Albaania Vabariik",
+        "common": "Albaania"
+      },
+      "fin": {
+        "official": "Albanian tasavalta",
+        "common": "Albania"
+      },
+      "fra": {
+        "official": "République d'Albanie",
+        "common": "Albanie"
+      },
+      "hrv": {
+        "official": "Republika Albanija",
+        "common": "Albanija"
+      },
+      "hun": {
+        "official": "Albán Köztársaság",
+        "common": "Albánia"
+      },
+      "ita": {
+        "official": "Repubblica d'Albania",
+        "common": "Albania"
+      },
+      "jpn": {
+        "official": "アルバニア共和国",
+        "common": "アルバニア"
+      },
+      "kor": {
+        "official": "알바니아 공화국",
+        "common": "알바니아"
+      },
+      "nld": {
+        "official": "Republiek Albanië",
+        "common": "Albanië"
+      },
+      "per": {
+        "official": "جمهوری آلبانی",
+        "common": "آلبانی"
+      },
+      "pol": {
+        "official": "Republika Albanii",
+        "common": "Albania"
+      },
+      "por": {
+        "official": "República da Albânia",
+        "common": "Albânia"
+      },
+      "rus": {
+        "official": "Республика Албания",
+        "common": "Албания"
+      },
+      "slk": {
+        "official": "Albánska republika",
+        "common": "Albánsko"
+      },
+      "spa": {
+        "official": "República de Albania",
+        "common": "Albania"
+      },
+      "swe": {
+        "official": "Republiken Albanien",
+        "common": "Albanien"
+      },
+      "urd": {
+        "official": "جمہوریہ البانیا",
+        "common": "البانیا"
+      },
+      "zho": {
+        "official": "阿尔巴尼亚共和国",
+        "common": "阿尔巴尼亚"
+      }
+    },
+    "latlng": [41.0, 20.0],
+    "landlocked": false,
+    "borders": ["MNE", "GRC", "MKD", "UNK"],
+    "area": 28748.0,
+    "demonyms": {
+      "eng": {
+        "f": "Albanian",
+        "m": "Albanian"
+      },
+      "fra": {
+        "f": "Albanaise",
+        "m": "Albanais"
+      }
+    },
+    "flag": "🇦🇱",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/BzN9cTuj68ZA8SyZ8",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/53292"
+    },
+    "population": 2837743,
+    "gini": {
+      "2017": 33.2
+    },
+    "fifa": "ALB",
+    "car": {
+      "signs": ["AL"],
+      "side": "right"
+    },
+    "timezones": ["UTC+01:00"],
+    "continents": ["Europe"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/al.png",
+      "svg": "https://flagcdn.com/al.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/al.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/al.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [41.32, 19.82]
+    }
+  },
+  {
+    "name": {
+      "common": "Vanuatu",
+      "official": "Republic of Vanuatu",
+      "nativeName": {
+        "bis": {
+          "official": "Ripablik blong Vanuatu",
+          "common": "Vanuatu"
+        },
+        "eng": {
+          "official": "Republic of Vanuatu",
+          "common": "Vanuatu"
+        },
+        "fra": {
+          "official": "République de Vanuatu",
+          "common": "Vanuatu"
+        }
+      }
+    },
+    "tld": [".vu"],
+    "cca2": "VU",
+    "ccn3": "548",
+    "cca3": "VUT",
+    "cioc": "VAN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "VUV": {
+        "name": "Vanuatu vatu",
+        "symbol": "Vt"
+      }
+    },
+    "idd": {
+      "root": "+6",
+      "suffixes": ["78"]
+    },
+    "capital": ["Port Vila"],
+    "altSpellings": [
+      "VU",
+      "Republic of Vanuatu",
+      "Ripablik blong Vanuatu",
+      "République de Vanuatu"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": {
+      "bis": "Bislama",
+      "eng": "English",
+      "fra": "French"
+    },
+    "translations": {
+      "ara": {
+        "official": "جمهورية فانواتو",
+        "common": "فانواتو"
+      },
+      "ces": {
+        "official": "Republika Vanuatu",
+        "common": "Vanuatu"
+      },
+      "cym": {
+        "official": "Republic of Vanuatu",
+        "common": "Vanuatu"
+      },
+      "deu": {
+        "official": "Vanuatu",
+        "common": "Vanuatu"
+      },
+      "est": {
+        "official": "Vanuatu Vabariik",
+        "common": "Vanuatu"
+      },
+      "fin": {
+        "official": "Vanuatun tasavalta",
+        "common": "Vanuatu"
+      },
+      "fra": {
+        "official": "République de Vanuatu",
+        "common": "Vanuatu"
+      },
+      "hrv": {
+        "official": "Republika Vanuatu",
+        "common": "Vanuatu"
+      },
+      "hun": {
+        "official": "Vanuatui Köztársaság",
+        "common": "Vanuatu"
+      },
+      "ita": {
+        "official": "Repubblica di Vanuatu",
+        "common": "Vanuatu"
+      },
+      "jpn": {
+        "official": "バヌアツ共和国",
+        "common": "バヌアツ"
+      },
+      "kor": {
+        "official": "바누아투 공화국",
+        "common": "바누아투"
+      },
+      "nld": {
+        "official": "Republiek Vanuatu",
+        "common": "Vanuatu"
+      },
+      "per": {
+        "official": "جمهوری وانواتو",
+        "common": "وانواتو"
+      },
+      "pol": {
+        "official": "Republika Vanuatu",
+        "common": "Vanuatu"
+      },
+      "por": {
+        "official": "República de Vanuatu",
+        "common": "Vanuatu"
+      },
+      "rus": {
+        "official": "Республика Вануату",
+        "common": "Вануату"
+      },
+      "slk": {
+        "official": "Vanuatská republika",
+        "common": "Vanuatu"
+      },
+      "spa": {
+        "official": "República de Vanuatu",
+        "common": "Vanuatu"
+      },
+      "swe": {
+        "official": "Republiken Vanuatu",
+        "common": "Vanuatu"
+      },
+      "urd": {
+        "official": "جمہوریہ وانواتو",
+        "common": "وانواتو"
+      },
+      "zho": {
+        "official": "瓦努阿图共和国",
+        "common": "瓦努阿图"
+      }
+    },
+    "latlng": [-16.0, 167.0],
+    "landlocked": false,
+    "area": 12189.0,
+    "demonyms": {
+      "eng": {
+        "f": "Ni-Vanuatu",
+        "m": "Ni-Vanuatu"
+      },
+      "fra": {
+        "f": "Vanuatuane",
+        "m": "Vanuatuan"
+      }
+    },
+    "flag": "🇻🇺",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/hwAjehcT7VfvP5zJ8",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/2177246"
+    },
+    "population": 307150,
+    "gini": {
+      "2010": 37.6
+    },
+    "fifa": "VAN",
+    "car": {
+      "signs": ["VU"],
+      "side": "right"
+    },
+    "timezones": ["UTC+11:00"],
+    "continents": ["Oceania"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/vu.png",
+      "svg": "https://flagcdn.com/vu.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/vu.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/vu.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [-17.73, 168.32]
+    }
+  },
+  {
+    "name": {
+      "common": "Mauritius",
+      "official": "Republic of Mauritius",
+      "nativeName": {
+        "eng": {
+          "official": "Republic of Mauritius",
+          "common": "Mauritius"
+        },
+        "fra": {
+          "official": "République de Maurice",
+          "common": "Maurice"
+        },
+        "mfe": {
+          "official": "Republik Moris",
+          "common": "Moris"
+        }
+      }
+    },
+    "tld": [".mu"],
+    "cca2": "MU",
+    "ccn3": "480",
+    "cca3": "MUS",
+    "cioc": "MRI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "MUR": {
+        "name": "Mauritian rupee",
+        "symbol": "₨"
+      }
+    },
+    "idd": {
+      "root": "+2",
+      "suffixes": ["30"]
+    },
+    "capital": ["Port Louis"],
+    "altSpellings": ["MU", "Republic of Mauritius", "République de Maurice"],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "mfe": "Mauritian Creole"
+    },
+    "translations": {
+      "ara": {
+        "official": "جمهورية موريشيوس",
+        "common": "موريشيوس"
+      },
+      "ces": {
+        "official": "Mauricijská republika",
+        "common": "Mauricius"
+      },
+      "cym": {
+        "official": "Republic of Mauritius",
+        "common": "Mauritius"
+      },
+      "deu": {
+        "official": "Republik Mauritius",
+        "common": "Mauritius"
+      },
+      "est": {
+        "official": "Mauritiuse Vabariik",
+        "common": "Mauritius"
+      },
+      "fin": {
+        "official": "Mauritiuksen tasavalta",
+        "common": "Mauritius"
+      },
+      "fra": {
+        "official": "République de Maurice",
+        "common": "Île Maurice"
+      },
+      "hrv": {
+        "official": "Republika Mauricijus",
+        "common": "Mauricijus"
+      },
+      "hun": {
+        "official": "Mauritiusi Köztársaság",
+        "common": "Mauritius"
+      },
+      "ita": {
+        "official": "Repubblica di Mauritius",
+        "common": "Mauritius"
+      },
+      "jpn": {
+        "official": "モーリシャス共和国",
+        "common": "モーリシャス"
+      },
+      "kor": {
+        "official": "모리셔스 공화국",
+        "common": "모리셔스"
+      },
+      "nld": {
+        "official": "Republiek Mauritius",
+        "common": "Mauritius"
+      },
+      "per": {
+        "official": "جمهوری موریس",
+        "common": "موریس"
+      },
+      "pol": {
+        "official": "Republika Mauritiusu",
+        "common": "Mauritius"
+      },
+      "por": {
+        "official": "República das Maurícias",
+        "common": "Maurício"
+      },
+      "rus": {
+        "official": "Республика Маврикий",
+        "common": "Маврикий"
+      },
+      "slk": {
+        "official": "Maurícijská republika",
+        "common": "Maurícius"
+      },
+      "spa": {
+        "official": "República de Mauricio",
+        "common": "Mauricio"
+      },
+      "swe": {
+        "official": "Republiken Mauritius",
+        "common": "Mauritius"
+      },
+      "urd": {
+        "official": "جمہوریہ موریشس",
+        "common": "موریشس"
+      },
+      "zho": {
+        "official": "毛里求斯共和国",
+        "common": "毛里求斯"
+      }
+    },
+    "latlng": [-20.28333333, 57.55],
+    "landlocked": false,
+    "area": 2040.0,
+    "demonyms": {
+      "eng": {
+        "f": "Mauritian",
+        "m": "Mauritian"
+      },
+      "fra": {
+        "f": "Mauricienne",
+        "m": "Mauricien"
+      }
+    },
+    "flag": "🇲🇺",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/PpKtZ4W3tir5iGrz7",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/535828"
+    },
+    "population": 1265740,
+    "gini": {
+      "2017": 36.8
+    },
+    "fifa": "MRI",
+    "car": {
+      "signs": ["MS"],
+      "side": "left"
+    },
+    "timezones": ["UTC+04:00"],
+    "continents": ["Africa"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/mu.png",
+      "svg": "https://flagcdn.com/mu.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/mu.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/mu.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [-20.15, 57.48]
+    }
+  }
+]

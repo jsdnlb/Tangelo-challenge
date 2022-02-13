@@ -1,6 +1,12 @@
 import requests
 
 
+MSG_MISSING_SCHEMA = 'Invalid URL. No schematic has been provided. Try adding http://'
+MSG_INVALID_URL = 'Failed to parse. Enter a valid URL. Try adding http://'
+MSG_INVALID_SCHEMA = 'No connection adapters were found. Enter a valid URL. Try adding http://'
+MSG_CONNECTION_ERROR = 'Failed to establish a new connection: Connection timed out'
+
+
 def get_all_contries(url):
 
     # Requests: HTTP for Humans
@@ -12,10 +18,10 @@ def get_all_contries(url):
         r = requests.get(url)
         return(r.json())
     except requests.exceptions.MissingSchema:
-        return 'Invalid URL. No schematic has been provided. Try adding http://'
+        return MSG_MISSING_SCHEMA
     except requests.exceptions.InvalidURL:
-        return 'Failed to parse. Enter a valid URL. Try adding http://'
+        return MSG_INVALID_URL
     except requests.exceptions.InvalidSchema:
-        return 'No connection adapters were found. Enter a valid URL. Try adding http://'
+        return MSG_INVALID_SCHEMA
     except requests.exceptions.ConnectionError:
-        return 'Failed to establish a new connection: Connection timed out'
+        return MSG_CONNECTION_ERROR

@@ -4,7 +4,7 @@ from app.libs.encrypt_sha1 import encrypt_sha1
 #Error messages
 MSG_TYPE_ERROR = 'Enter a string'
 
-class TestTypesOfVariables(unittest.TestCase):
+class TestEncryptSHA1(unittest.TestCase):
 
     # Successful testing, expected result SHA1
 

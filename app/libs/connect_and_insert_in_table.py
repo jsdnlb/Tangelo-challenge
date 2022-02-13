@@ -1,5 +1,10 @@
+from multiprocessing.sharedctypes import Value
 import sqlite3
 import pandas as pd
+
+
+MSG_SQLITE_ERROR = 'Validate the structure of the data, expected tuple, example (0.82,0.03,0.5,10)'
+MSG_VALUE_ERROR = 'Invalid parameters expected tuple, example (0.82,0.03,0.5,10)'
 
 
 def connect_and_insert_log(data_time):
@@ -33,8 +38,12 @@ def connect_and_insert_log(data_time):
         print('Saving the table log_execution_time in a json.')
         db_df.to_json('log_execution_time.json')
 
+        return True
+        
     except sqlite3.Error as error:
-        print("Error while connecting to sqlite", error)
+        return MSG_SQLITE_ERROR
+    except ValueError:
+        return MSG_VALUE_ERROR
     finally:
         if sqliteConnection:
             sqliteConnection.close()

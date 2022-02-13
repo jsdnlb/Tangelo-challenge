@@ -3,7 +3,7 @@ from app.libs.connect_and_insert_in_table import connect_and_insert_log
 from app.libs.structure_dataframe import filter_data
 from app.libs.calculating_run_times import calculate_execution_times
 
-# 
+# Start execution
 
 def run():
     print('Initiating execution... 🚀')
