@@ -1,7 +1,8 @@
 import re
 import pandas as pd
 from timeit import default_timer as timer
-from app.modules.encrypt_sha1 import encrypt_sha1
+#from app.modules.encrypt_sha1 import encrypt_sha1
+from app.modules.encrypt_fernet import encrypt_fernet
 from app.modules.error_messages import error_messages
 
 
@@ -25,9 +26,9 @@ def filter_data(data):
                 # Then use [* operator] to unpack dict_values with this it becomes a list and I get the value in the index[0]
                 # Finally use the function to encrypt SHA1
                 # More information about unpack here: https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists
-                language.append(encrypt_sha1([*elem['languages'].values()][0]))
+                language.append(encrypt_fernet([*elem['languages'].values()][0]))
             except KeyError:
-                language.append(encrypt_sha1('Language not found'))
+                language.append(encrypt_fernet('Language not found'))
             # Calculation in final execution time
             end_time = timer()
             # I subtract the final execution time from the initial time, multiply it by 1000 to convert it to milliseconds
