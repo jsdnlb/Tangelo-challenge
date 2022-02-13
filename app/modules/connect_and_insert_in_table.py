@@ -1,4 +1,4 @@
-from multiprocessing.sharedctypes import Value
+from app.modules.error_messages import error_messages
 import sqlite3
 import pandas as pd
 
@@ -40,10 +40,10 @@ def connect_and_insert_log(data_time):
 
         return True
         
-    except sqlite3.Error as error:
-        return MSG_SQLITE_ERROR
+    except sqlite3.Error:
+        return error_messages('MSG_SQLITE_ERROR')
     except ValueError:
-        return MSG_VALUE_ERROR
+        return error_messages('MSG_SQLITE_VALUE_ERROR')
     finally:
         if sqliteConnection:
             sqliteConnection.close()

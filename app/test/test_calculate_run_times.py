@@ -1,10 +1,7 @@
 import unittest
 import pandas as pd
-from app.libs.calculating_run_times import calculate_execution_times
-
-# Error messages
-MSG_TYPE_ERROR = 'Invalid parameters, validate the information entered.'
-MSG_KEY_ERROR = 'Invalid parameters, must send a DataFrame'
+from app.modules.calculate_run_times import calculate_execution_times
+from app.modules.error_messages import error_messages
 
 
 class TestRunTimes(unittest.TestCase):
@@ -22,23 +19,23 @@ class TestRunTimes(unittest.TestCase):
 
     def test_string(self):
         result = calculate_execution_times('test')
-        self.assertEqual(result, MSG_TYPE_ERROR)
+        self.assertEqual(result, error_messages('MSG_RUNTIMES_TYPE_ERROR'))
 
     def test_int(self):
         result = calculate_execution_times(10)
-        self.assertEqual(result, MSG_TYPE_ERROR)
+        self.assertEqual(result, error_messages('MSG_RUNTIMES_TYPE_ERROR'))
 
     def test_boolean(self):
         result = calculate_execution_times(0.54)
-        self.assertEqual(result, MSG_TYPE_ERROR)
+        self.assertEqual(result, error_messages('MSG_RUNTIMES_TYPE_ERROR'))
 
     def test_list(self):
         result = calculate_execution_times([10, 5.2, '2', True])
-        self.assertEqual(result, MSG_TYPE_ERROR)
+        self.assertEqual(result, error_messages('MSG_RUNTIMES_TYPE_ERROR'))
 
     def test_dict(self):
         result = calculate_execution_times({'data': 2, 'name': 'test'})
-        self.assertEqual(result, MSG_KEY_ERROR)
+        self.assertEqual(result, error_messages('MSG_RUNTIMES_KEY_ERROR'))
 
 
 if __name__ == '__main__':

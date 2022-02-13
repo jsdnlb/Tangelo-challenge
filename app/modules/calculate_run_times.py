@@ -1,9 +1,7 @@
-MSG_TYPE_ERROR = 'Invalid parameters, validate the information entered.'
-MSG_KEY_ERROR = 'Invalid parameters, must send a DataFrame'
- 
+from app.modules.error_messages import error_messages
+
 
 def calculate_execution_times(data):
-
 
     try:
         print('\nCalculating table execution times... 🖥\n')
@@ -21,6 +19,6 @@ def calculate_execution_times(data):
         return (max_time, min_time, average_time, total_time)
 
     except TypeError:
-        return MSG_TYPE_ERROR
+        return error_messages('MSG_RUNTIMES_TYPE_ERROR')
     except KeyError:
-        return MSG_KEY_ERROR
+        return error_messages('MSG_RUNTIMES_KEY_ERROR')

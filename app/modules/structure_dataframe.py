@@ -1,10 +1,8 @@
 import re
 import pandas as pd
 from timeit import default_timer as timer
-from app.libs.encrypt_sha1 import encrypt_sha1
-
-
-MSG_TYPE_ERROR = 'Invalid parameters, validate the information entered.'
+from app.modules.encrypt_sha1 import encrypt_sha1
+from app.modules.error_messages import error_messages
 
 
 def filter_data(data):
@@ -48,4 +46,4 @@ def filter_data(data):
 
         return table
     except TypeError:
-        return MSG_TYPE_ERROR
+        return error_messages('MSG_INVALID_PARAMETERS')
